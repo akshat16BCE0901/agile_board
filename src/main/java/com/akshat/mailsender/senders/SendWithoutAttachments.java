@@ -55,7 +55,7 @@ public class SendWithoutAttachments {
         MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage,false);
         mimeMessageHelper.setTo(getTo());
         mimeMessageHelper.setSubject(getSubject());
-        mimeMessageHelper.setText(getMessage());
+        mimeMessageHelper.setText(getMessage(),true);
         javaMailSender.send(mimeMessage);
     }
 

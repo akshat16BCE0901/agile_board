@@ -59,19 +59,15 @@ class FightCorona extends Component
 
     }
     componentDidMount = async() =>{
-        Axios.get("https://thevirustracker.com/free-api?countryTotal=IN")
+        Axios.get("https://api.covid19api.com/dayone/country/india")
         .then(response => response.data)
         .then((data) =>{
             this.setState({
                 INData : {
-                    "total_cases" : data.countrydata[0].total_cases,
-                    "total_recovered" : data.countrydata[0].total_recovered,
-                    "total_unresolved" : data.countrydata[0].total_unresolved,
-                    "total_deaths" : data.countrydata[0].total_deaths,
-                    "total_new_cases_today" : data.countrydata[0].total_new_cases_today,
-                    "total_new_deaths_today" : data.countrydata[0].total_new_deaths_today,
-                    "total_active_cases" : data.countrydata[0].total_active_cases,
-                    "total_serious_cases":data.countrydata[0].total_serious_cases 
+                    "total_cases" : data[data.length-1].Confirmed,
+                    "total_recovered" : data[data.length-1].Recovered,
+                    "total_deaths" : data[data.length-1].Deaths,
+                    "total_active_cases" : data[data.length-1].Active
                 }
             });
         });
@@ -88,7 +84,7 @@ class FightCorona extends Component
                     "total_new_cases_today" : data.results[0].total_new_cases_today,
                     "total_new_deaths_today" : data.results[0].total_new_deaths_today,
                     "total_active_cases" : data.results[0].total_active_cases,
-                    "total_serious_cases":data.results[0].total_serious_cases 
+                    "total_serious_cases":data.results[0].total_serious_cases
                 }
             });
         });
@@ -130,7 +126,7 @@ class FightCorona extends Component
             }
         });
 
-        await Axios.get("https://corona.lmao.ninja/countries?sort=cases")
+        await Axios.get("https://corona.lmao.ninja/v2/countries?sort=cases")
         .then(response => response.data)
         .then((data) =>{
             this.setState({
@@ -271,32 +267,9 @@ class FightCorona extends Component
                     </div>
                     <div className="col-md-3 p-2">
                         <Card body>
-                            <h1 className="text-center"><span role="img" aria-label="Emoji">🤢</span></h1>
-                            <h4 className="text-center">Total Unresolved</h4>
-                            <h5 className="text-center">{this.state.INData.total_unresolved}</h5>
-                        </Card>
-                    </div>
-                    <div className="col-md-3 p-2">
-                        <Card body>
                             <h1 className="text-center"><span role="img" aria-label="Emoji">😞</span></h1>
                             <h4 className="text-center">Total Deaths</h4>
                             <h5 className="text-center">{this.state.INData.total_deaths}</h5>
-                        </Card>
-                    </div>
-                </div>
-                <div style={{padding : '20px'}} className="row bg-info">
-                    <div className="col-md-3 p-2">
-                        <Card body>
-                            <h1 className="text-center"><span role="img" aria-label="Emoji">😷</span></h1>
-                            <h4 className="text-center">Total New Cases Today</h4>
-                            <h5 className="text-center">{this.state.INData.total_new_cases_today}</h5>
-                        </Card>
-                    </div>
-                    <div className="col-md-3 p-2">
-                        <Card body>
-                            <h1 className="text-center"><span role="img" aria-label="Emoji">😔</span></h1>
-                            <h4 className="text-center">Total New Deaths Today</h4>
-                            <h5 className="text-center">{this.state.INData.total_new_deaths_today}</h5>
                         </Card>
                     </div>
                     <div className="col-md-3 p-2">
@@ -304,13 +277,6 @@ class FightCorona extends Component
                             <h1 className="text-center"><span role="img" aria-label="Emoji">🤧</span></h1>
                             <h4 className="text-center">Total Active Cases</h4>
                             <h5 className="text-center">{this.state.INData.total_active_cases}</h5>
-                        </Card>
-                    </div>
-                    <div className="col-md-3 p-2">
-                        <Card body>
-                            <h1 className="text-center"><span role="img" aria-label="Emoji">🤕</span></h1>
-                            <h4 className="text-center">Total Serious Cases</h4>
-                            <h5 className="text-center">{this.state.INData.total_serious_cases}</h5>
                         </Card>
                     </div>
                 </div>
