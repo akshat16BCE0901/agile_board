@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Axios from 'axios';
 import { Card, Navbar, Nav, Badge, NavDropdown, ListGroup, ListGroupItem} from 'react-bootstrap';
-import {ResponsiveLine} from '@nivo/line';
 import {MDBDataTable} from 'mdbreact';
 import "mdbreact/dist/css/mdb.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -55,7 +54,9 @@ class FightCorona extends Component
         ],
 
         StateData : [],
-        GlobalCountryWiseData : []
+        GlobalCountryWiseData : [],
+
+        IndiaCityWiseData : []
 
     }
     componentDidMount = async() =>{
@@ -106,6 +107,19 @@ class FightCorona extends Component
             })
             console.log(this.state.GlobalCountryWiseData);
         })
+
+        await Axios.get("https://api.covid19india.org/state_district_wise.json")
+            .then(response => response.data)
+            .then((data) =>{
+                const keys = Object.keys(data);
+                for(let key of keys)
+                {
+                    let state_data = data[key];
+                    const state_keys = Object.keys(state_data);
+                    console.log(state_data[state_keys[0]]);
+                }
+
+            });
         
         
     }
