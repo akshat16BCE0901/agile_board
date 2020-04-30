@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Axios from 'axios';
 import { Card, Navbar, Nav, Badge, NavDropdown, ListGroup, ListGroupItem} from 'react-bootstrap';
 import {MDBDataTable} from 'mdbreact';
+import StateData from "./StateData";
 import "mdbreact/dist/css/mdb.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 class FightCorona extends Component
@@ -56,7 +57,10 @@ class FightCorona extends Component
         StateData : [],
         GlobalCountryWiseData : [],
 
-        IndiaCityWiseData : []
+        IndiaCityWiseData : [],
+
+        AllStates : [],
+        StData : []
 
     }
     componentDidMount = async() =>{
@@ -107,19 +111,6 @@ class FightCorona extends Component
             })
             console.log(this.state.GlobalCountryWiseData);
         })
-
-        await Axios.get("https://api.covid19india.org/state_district_wise.json")
-            .then(response => response.data)
-            .then((data) =>{
-                const keys = Object.keys(data);
-                for(let key of keys)
-                {
-                    let state_data = data[key];
-                    const state_keys = Object.keys(state_data);
-                    console.log(state_data[state_keys[0]]);
-                }
-
-            });
         
         
     }
@@ -229,6 +220,16 @@ class FightCorona extends Component
                         </MDBDataTable>
             
                     </div>
+                </div>
+
+                <div id="city_wise_data" className="row" style={{backgroundColor:"white",padding : "10px"}}>
+                    <div className="col-md-12">
+                        <h1 className="text-center">City wise Data</h1>
+                        <h5 className="text-center">(Click on any state for its data)</h5>
+                    </div>
+                </div>
+                <div className="row" style={{backgroundColor:"white",padding : "10px"}}>
+                    <StateData />
                 </div>
                 
                 <div id="indian_stats" className="row bg-info">
