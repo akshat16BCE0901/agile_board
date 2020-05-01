@@ -11,6 +11,7 @@ import JiraView from './components/Jira/JiraView';
 import LiveText from './components/Personal/LiveText';
 import IndividualJiraPage from './components/Jira/IndividualJiraPage';
 import FightCorona from './components/Personal/FightCorona';
+import StateTable from "./components/Personal/StateTable";
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -122,6 +123,7 @@ class App extends Component
               <Route path="/fightcorona" >
                 {components.fightCorona}
               </Route>
+              <Route path="/statedata/:id" children={<CityWiseDataMiddleWare />} />
           </Switch>
         </div>
       </Router>
@@ -137,6 +139,13 @@ function IndividualJiraMiddleware(){
     <IndividualJiraPage id={`${id}`} />
   )
 
+}
+
+function CityWiseDataMiddleWare() {
+    let {id} = useParams();
+    return(
+        <StateTable id={`${id}`} />
+    )
 }
 
 export default App;
