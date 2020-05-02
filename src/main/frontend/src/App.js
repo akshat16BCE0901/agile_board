@@ -12,6 +12,7 @@ import LiveText from './components/Personal/LiveText';
 import IndividualJiraPage from './components/Jira/IndividualJiraPage';
 import FightCorona from './components/Personal/FightCorona';
 import StateTable from "./components/Personal/StateTable";
+import ZoneTable from "./components/Personal/ZoneTable";
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -124,6 +125,7 @@ class App extends Component
                 {components.fightCorona}
               </Route>
               <Route path="/statedata/:id" children={<CityWiseDataMiddleWare />} />
+              <Route path="/zonedata/:id" children={<ZoneWiseDataMiddleWare />} />
           </Switch>
         </div>
       </Router>
@@ -147,5 +149,14 @@ function CityWiseDataMiddleWare() {
         <StateTable id={`${id}`} />
     )
 }
+
+function ZoneWiseDataMiddleWare() {
+    let {id} = useParams();
+    return(
+        <ZoneTable id={`${id}`} />
+    )
+}
+
+
 
 export default App;

@@ -1,0 +1,1890 @@
+[
+  {
+    "state": "ANDAMAN AND NICOBAR ISLANDS",
+    "districts": [
+      {
+        "District": "South Andamans",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Nicobars",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "North And Middle Andaman",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "ANDHRA PRADESH",
+    "districts": [
+      {
+        "District": "Kurnool",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Guntur",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Krishna",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Chittoor",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Spsr Nellore",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "West Godavari",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Y.S.R.",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Anantapur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Prakasam",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "East Godavari",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Srikakulam",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Visakhapatanam",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Vizianagaram",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "ARUNACHAL PRADESH",
+    "districts": [
+      {
+        "District": "Lohit",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Changlang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Changlang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Dibang Valley",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "East Kameng",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "East Slang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "KurungKumey",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lower Dibang Valley",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lower Subansiri",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Papum Pare",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Tawang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Tirap",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Upper Siang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Upper Subansiri",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "West Kameng",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "West Siang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Anjaw",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Longding",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kra Daadi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Namsai",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Siang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kamle",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lower Siang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "PakkeKessang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lepa Rada",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "ShiYomi",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Assam",
+    "districts": [
+      {
+        "District": "Dhubri",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Marigaon",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Goalpara",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Golaghat",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Karimganj",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Nalbari",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Hailakandi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Cachar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kamrup",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lakhimpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kamrup Metro",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "South Salmara Mancachar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Barpeta",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Bongaigaon",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Darrang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Dhemaji",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Dibrugarh",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Jorhat",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "KarbiAnglong",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kokrajhar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Nagaon",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Dima Hasao",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sivasagar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sonitpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Tinsukia",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Chirang",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Baksa",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Udalguri",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Biswanath",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Majuli",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Charaideo",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Hojai",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "West Karbi Anglong",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "districts": [
+      {
+        "District": "Munger",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Patna",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Rohtas",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Buxar",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Gaya",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Nalanda",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kaimur (Bhabua)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Siwan",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Gopalganj",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bhojpur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Begusarai",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Aurangabad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Madhubani",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Purbi Champaran (East Champaran)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bhagalpur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Arwal",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Saran",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Nawada",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Lakhisarai",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Banka",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Vaishali",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Darbhanga",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Jehanabad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Madhepura",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Purnia",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Sheikhpura",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Araria",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Jamui",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Katihar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Khagaria",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kishanganj",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Muzaffarpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Pashchim Champaran (West Champaran)",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Saharsa",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Samastipur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sheohar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sitamarhi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Supaul",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Chandigarh",
+    "districts": [
+      {
+        "District": "Chandigarh",
+        "Zone": "Red Zone"
+      }
+    ]
+  },
+  {
+    "state": "Chhattisgarh",
+    "districts": [
+      {
+        "District": "Raipur",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Korba",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Surajpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Bilaspur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Durg",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Rajnandgaon",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Basta",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Dantewada",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Dhamtari",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Janjgir-Champa",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Jashpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kanker",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kabirdham",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Korea",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Mahasamund",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Raigarh",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Surguia",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Bijapur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Nayaranpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sukma",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kondagaon",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Baloda Bazar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Garivaband",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Balod",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Munseli",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Balrampur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Bemetara",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+    "districts": [
+      {
+        "District": "Dadra And Nagar Haveli",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Daman",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Diu",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Delhi",
+    "districts": [
+      {
+        "District": "South East Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Central Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "North Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "South Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "North East Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "West Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Shahdara",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "East Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "New Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "North West Delhi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "South West Delhi",
+        "Zone": "Red Zone"
+      }
+    ]
+  },
+  {
+    "state": "Goa",
+    "districts": [
+      {
+        "District": "North Goa",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "South Goa",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "districts": [
+      {
+        "District": "Ahmedabad",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Surat",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Vadodara",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Anand",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Banas Kantha",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Panchmahal",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Bhavnagar",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Gandhinagar",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Aravalli",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Rajkot",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bharuch",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Botad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Narmada",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Chhota Udaipur (Chhotaudepur)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Mahisagar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Mehsana",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Patan",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kheda",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Valsad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Dohad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kachchh (Kutch)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Navsari",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Gir Somnath",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Dang",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Sabarkantha",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Tapi",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Jamnagar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Surendranagar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Morbi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Amreli",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Porbandar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Junagadh",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Devbhumi Dwarka (Devbhoomi Dwarka)",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "districts": [
+      {
+        "District": "Sonipat",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Faridabad",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Gurugram (Gurgaon)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Nuh",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Panipat",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Panchkula",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Palwal",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Rohtak",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Hisar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ambala",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Jhajjar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bhiwani",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kaithal",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kurukshetra",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Karnal",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Jind",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Sirsa",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Yamunanagar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Fatehabad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Charkhi Dadri",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Mahendragarh",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Rewari",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "districts": [
+      {
+        "District": "Una",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Chamba",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Hamirpur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kangra",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Sirmaur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Solan",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bilaspur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kinnaur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kullu",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lahul And Spiti",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Mandi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Mandi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Shimla",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "districts": [
+      {
+        "District": "Bandipora",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Shopian",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Anantnag",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Srinagar",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Baramulla",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kupwara",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ganderbal",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Jammu",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Udhampur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kulgam",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Budgam",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Samba",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kathua",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Rajouri",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ramban",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Reasi",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Pulwama",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kishtwar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Doda",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Poonch",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Jharkand",
+    "districts": [
+      {
+        "District": "Ranchi",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Bokaro",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Garhwa",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Dhanbad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Deoghar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Hazaribagh",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Simdega",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Giridih",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Koderma",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Jamtara",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Chatra",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Dumka",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "East Singhbum",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Godda",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Gumla",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Latehar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lohardaga",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Pakur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Palamu",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sahebganj",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Saraikela Kharsawan",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "West Singhbhum",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Khunti",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Ramgarh",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "districts": [
+      {
+        "District": "Bengaluru Urban (Bangalore City)",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Mysuru (Mysore)",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Bengaluru Rural",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Belagavi",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Vijayapura",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kalaburagi (Gulbarga)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bagalkote",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Mandya",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ballari (Bellary)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Dharwad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Dakshina Kannada",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bidar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Chikkaballapura",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Gadag",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Uttara Kannada",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Tumakuru",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Davangere",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Udupi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Chamarajanagara",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Chikkamagaluru",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Chitradurga",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Hassan",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Haveri",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kodagu",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kolar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Koppal",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Raichur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Shivamogga",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Ramanagara",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Yadgir",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Kerela",
+    "districts": [
+      {
+        "District": "Kannur",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Kottayam",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Kasaragod",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Idukki",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kozhikode",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kollam",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Palakkad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Pathanamthitta",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Malappuram",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Thiruvananthapuram (Trivandrum)",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Alappuzha",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Thrissur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ernakulam",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Wayanad",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Ladakh",
+    "districts": [
+      {
+        "District": "Leh Ladakh",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kargil",
+        "Zone": "Orange Zone"
+      }
+    ]
+  },
+  {
+    "state": "Lakshwadeep",
+    "districts": [
+      {
+        "District": "Lakshadweep District",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "districts": [
+      {
+        "District": "lndore",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Bhopal",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Ujjain",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Jabalpur",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Dhar",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Barwani",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "East Nimar",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Dewas",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Gwalior",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Khargone",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Raisen",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Hoshangabad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ratlam",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Agar Malwa",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Mandsaur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Sagar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Shajapur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Chhindwara",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Alirajpur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Tikamgarh",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Shahdol",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Sheopur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Dindori",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Burhanpur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Harda",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Betul",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Vidisha",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Morena",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Rewa",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Ashoknagar",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Rajgarh",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Shivpuri",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Anuppur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Balaghat",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Bhind",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Chhatarpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Damoh",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Datia",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Guna",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Jhabua",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Katni",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Mandla",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Narsinghpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Neemuch",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Panna",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Satna",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sehore",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Seoni",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sidhi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Umaria",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Singrauli",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Niwari",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Maharashtra",
+    "districts": [
+      {
+        "District": "Mumbai",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Pune",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Thane",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Nashik",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Palghar",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Nagpur",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Solapur",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Yavatmal",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Aurangabad",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Satara",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Dhule",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Akola",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Jalgaon",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Mumbai Suburban",
+        "Zone": "Red Zone"
+      },
+      {
+        "District": "Raigad",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ahmednagar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Amravati",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Buldhana",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Nandurbar",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Kolhapur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Hingoli",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Ratnagiri",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Jalna",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Nanded",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Chandrapur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Parbhani",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Sangli",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Latur",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Bhandara",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Beed",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "Osmanabad",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Washim",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Sindhudurg",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Gondia",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Gadchiroli",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Wardha",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Manipur",
+    "districts": [
+      {
+        "District": "lmphal West",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Thoubal",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Bishnupur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Chandel",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Churachandpur",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "lmphal East",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Senapati",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Tamenglong",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Ukhrul",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kakching",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kangpokpi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Jiribam",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Noney",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Pherzawl",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Tengnoupal",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kamjong",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Meghalaya",
+    "districts": [
+      {
+        "District": "East Khasi Hills",
+        "Zone": "Orange Zone"
+      },
+      {
+        "District": "East Garo Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "West Jaintia Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Ri Bhoi",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "South Garo Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "West Garo Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "West Khasi Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "North Garo Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "East Jaintia Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "South West Khasi Hills",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "South West Garo Hills",
+        "Zone": "Green Zone"
+      }
+    ]
+  },
+  {
+    "state": "Mizoram",
+    "districts": [
+      {
+        "District": "Aizawl",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Champhai",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Kolasib",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lawngtlai",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Lunglei",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Mamit",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Saiha",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Serchhip",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Hnahthial",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Saitual",
+        "Zone": "Green Zone"
+      },
+      {
+        "District": "Khawzawl",
+        "Zone": "Green Zone"
+      }
+    ]
+  }
+]

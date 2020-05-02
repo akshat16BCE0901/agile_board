@@ -5,6 +5,7 @@ import {MDBDataTable} from 'mdbreact';
 import StateData from "./StateData";
 import "mdbreact/dist/css/mdb.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import ZoneData from "./ZoneData";
 class FightCorona extends Component
 {
     state=  {
@@ -61,7 +62,8 @@ class FightCorona extends Component
 
         AllStates : [],
         StData : [],
-        Zones : []
+        Zones : [],
+        AllStatesForZones : []
 
     }
     componentDidMount = async() =>{
@@ -109,14 +111,35 @@ class FightCorona extends Component
         .then((data) =>{
             this.setState({
                 GlobalCountryWiseData : data
-            })
-            console.log(this.state.GlobalCountryWiseData);
+            });
         })
         
         await Axios.get("./zone_data.json")
             .then(response => response.data)
             .then((data) => {
-                console.log(data);
+                const arr = [];
+                const arr2 = [];
+                for(let states of data)
+                {
+                    const state_arr_1 = [];
+                    for(let district of states.districts)
+                    {
+                        state_arr_1.push(district);
+                    }
+                    arr.push(states.state);
+                    arr2.push(state_arr_1);
+                }
+                this.setState({
+                    AllStatesForZones : arr
+                });
+
+                this.setState({
+                    AllDistrictsCorrespondingToStates : arr2
+                });
+
+                console.log(this.state.AllStatesForZones);
+                console.log(this.state.AllDistrictsCorrespondingToStates);
+
             })
     }
 
@@ -343,6 +366,9 @@ class FightCorona extends Component
                     <div className="col-md-12">
                         <h1 className="text-center">District Wise Zone Classificaion</h1>
                     </div>
+                </div>
+                <div className="row" style={{backgroundColor:"white",padding : "10px"}}>
+                    <ZoneData />
                 </div>
                 {/*<div className="row pt-1" style={{backgroundColor : 'white'}}>*/}
                 {/*    <div className="col-md-12" style={{height : '20em',width : '100em',minHeight:'0', minWidth : '0'}}> */}
