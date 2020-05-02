@@ -1,5 +1,6 @@
 package com.akshat.jmsPractice;
 
+import com.akshat.jmsPractice.sender.RabbitMQSender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,9 @@ public class ProducerResource {
     @Resource(name = "activemqqueue")
     public Queue queue;
 
+    @Resource(name="rabbitMQSender")
+    private RabbitMQSender rabbitMQSender;
+
     @Autowired
     private JmsTemplate jmsTemplate;
 
@@ -29,6 +33,13 @@ public class ProducerResource {
         jmsTemplate.convertAndSend(queue,message);
         logger.info("Message has been published to queue");
         return "Message published successfully";
+    }
+
+    @GetMapping("/rabbit/{message}")
+    public String publishRabbitMQMessage(@PathVariable("message") String message){
+        rabbitMQSender.send(message);
+        logger.info("Message has been published. The message received is {}",message);
+        return "Message has been published and the message is "+message;
     }
 
 }

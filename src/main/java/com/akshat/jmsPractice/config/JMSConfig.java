@@ -16,4 +16,6 @@ public class JMSConfig {
     {
         return new ActiveMQQueue("AKSHAT.QUEUE");
     }
+
+
 }
