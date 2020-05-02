@@ -60,7 +60,8 @@ class FightCorona extends Component
         IndiaCityWiseData : [],
 
         AllStates : [],
-        StData : []
+        StData : [],
+        Zones : []
 
     }
     componentDidMount = async() =>{
@@ -112,7 +113,11 @@ class FightCorona extends Component
             console.log(this.state.GlobalCountryWiseData);
         })
         
-        
+        await Axios.get("./zone_data.json")
+            .then(response => response.data)
+            .then((data) => {
+                console.log(data);
+            })
     }
 
     render(){
@@ -188,7 +193,7 @@ class FightCorona extends Component
                                 <Nav.Link style={{color : 'black'}} href="#state_wise_data">State wise Data</Nav.Link>
                                 <Nav.Link style={{color : 'black'}}  href="#indian_stats">Indian Stats</Nav.Link>
                                 <Nav.Link style={{color : 'black'}}  href="#world_stats">World Stats</Nav.Link>
-                                <Nav.Link style={{color : 'black'}}  href="#indian_timeline">Indian Timeline</Nav.Link>
+                                <Nav.Link style={{color : 'black'}}  href="#indian_timeline">District Zones</Nav.Link>
                                 <Nav.Link style={{color : 'black'}}  href="#global_country_wise_data">Global Country Wise Data&nbsp;&nbsp;<Badge variant="primary">New</Badge></Nav.Link>
                                 <NavDropdown title="Info Section">
                                     <NavDropdown.Item href="#symptoms">Symptoms</NavDropdown.Item>
@@ -336,7 +341,7 @@ class FightCorona extends Component
 
                 <div id="indian_timeline" className="row pt-1" style={{backgroundColor : 'white'}}>
                     <div className="col-md-12">
-                        <h1 className="text-center">Indian Timeline</h1>
+                        <h1 className="text-center">District Wise Zone Classificaion</h1>
                     </div>
                 </div>
                 {/*<div className="row pt-1" style={{backgroundColor : 'white'}}>*/}
