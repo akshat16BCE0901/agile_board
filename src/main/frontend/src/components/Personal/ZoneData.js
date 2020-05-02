@@ -44,19 +44,19 @@ class ZoneData extends Component{
         const tableRows1 = [];
         const tableRows2 = [];
         const tableRows3 = [];
-        for(let i=0;i<8;i++)
+        for(let i=0;i<12;i++)
         {
             tableRows1.push(<ListGroup.Item action href={"/zonedata/"+i}>
                 {this.state.AllStatesForZones[i]}
             </ListGroup.Item>);
         }
-        for(let i=8;i<16;i++)
+        for(let i=12;i<24;i++)
         {
             tableRows2.push(<ListGroup.Item action href={"/zonedata/"+i}>
                 {this.state.AllStatesForZones[i]}
             </ListGroup.Item>);
         }
-        for(let i=16;i<24;i++)
+        for(let i=24;i<36;i++)
         {
             tableRows3.push(<ListGroup.Item action href={"/zonedata/"+i}>
                 {this.state.AllStatesForZones[i]}
