@@ -35,6 +35,7 @@ public class ProducerResource {
     @GetMapping("/rabbit/{message}")
     public String publishRabbitMQMessage(@PathVariable("message") String message){
         rabbitMQSender.send(message);
+        rabbitMQSender.sendTopicMessage(message);
         logger.info("Message has been published. The message received is {}",message);
         return "Message has been published and the message is "+message;
     }
