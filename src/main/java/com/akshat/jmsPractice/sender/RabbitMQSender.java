@@ -16,12 +16,7 @@ public class RabbitMQSender {
     private AmqpTemplate rabbitTemplate;
 
     public void send(String message){
-        rabbitTemplate.convertAndSend("MAILEXCHANGE","MAILROUTINGKEY",message);
+        rabbitTemplate.convertAndSend("TOPICEXCHANGE","routing_key_1",message);
         LOGGER.info("Message has been sent to direct. The message was {}",message);
-    }
-
-    public void sendTopicMessage(String message){
-        rabbitTemplate.convertAndSend("TOPICEXCHANGE","TOPICEXCHANGEROUTINGKEY",message);
-        LOGGER.info("Message has been sent to topic. The message was {}",message);
     }
 }

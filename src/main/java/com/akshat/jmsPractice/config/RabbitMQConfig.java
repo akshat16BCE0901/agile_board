@@ -12,20 +12,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMQConfig {
 
-    @Bean(name = "mailQueue")
-    public Queue mailQueue(){
-        return new Queue("AKSHAT.MAIL.QUEUE",false);
+    @Bean(name = "mail1Queue")
+    public Queue mail1Queue(){
+        return new Queue("AKSHAT.MAIL1.QUEUE",false);
     }
 
-    @Bean(name = "topicQueue")
-    public Queue topicQueue(){
-        return new Queue("AKSHAT.TOPIC.QUEUE",false);
+    @Bean(name = "mail2Queue")
+    public Queue mail2Queue(){
+        return new Queue("AKSHAT.MAIL2.QUEUE",false);
     }
 
-    @Bean
-    public DirectExchange directExchange(){
-        return new DirectExchange("MAILEXCHANGE");
-    }
 
     @Bean
     public TopicExchange topicExchange(){
@@ -33,13 +29,19 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    public Binding directBinding(@Qualifier("mailQueue") Queue queue, DirectExchange directExchange){
-        return BindingBuilder.bind(queue).to(directExchange).with("MAILROUTINGKEY");
+    public Binding binding1(@Qualifier("mail1Queue") Queue queue, TopicExchange topicExchange){
+        return BindingBuilder.bind(queue).to(topicExchange).with("routing_key_1");
+    }
+
+
+    @Bean
+    public Binding binding2(@Qualifier("mail1Queue") Queue queue,TopicExchange topicExchange){
+        return BindingBuilder.bind(queue).to(topicExchange).with("routing_key_2");
     }
 
     @Bean
-    public Binding topicBinding(@Qualifier("topicQueue") Queue queue,TopicExchange topicExchange){
-        return BindingBuilder.bind(queue).to(topicExchange).with("TOPICEXCHANGEROUTINGKEY");
+    public Binding binding3(@Qualifier("mail2Queue") Queue queue,TopicExchange topicExchange){
+        return BindingBuilder.bind(queue).to(topicExchange).with("routing_key_3");
     }
 
     @Bean(name = "rabbitTemplateBean")
