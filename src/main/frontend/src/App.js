@@ -13,6 +13,7 @@ import IndividualJiraPage from './components/Jira/IndividualJiraPage';
 import FightCorona from './components/Personal/FightCorona';
 import StateTable from "./components/Personal/StateTable";
 import ZoneTable from "./components/Personal/ZoneTable";
+import ErrorPage from "./components/404";
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -33,7 +34,8 @@ var components = {
   addProjectForm : <AddProjectForm />,
   yourJiras : <JiraView />,
   liveText : <LiveText />,
-  fightCorona : <FightCorona />
+  fightCorona : <FightCorona />,
+    errorPage : <ErrorPage />
 
 }
 
@@ -126,6 +128,9 @@ class App extends Component
               </Route>
               <Route path="/statedata/:id" children={<CityWiseDataMiddleWare />} />
               <Route path="/zonedata/:id" children={<ZoneWiseDataMiddleWare />} />
+              <Route path="*">
+                  {components.errorPage}
+              </Route>
           </Switch>
         </div>
       </Router>
