@@ -2,6 +2,7 @@ package com.akshat.controller;
 
 import com.akshat.model.Employee;
 import com.akshat.service.EmployeeService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.json.simple.JSONObject;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,7 +26,7 @@ public class EmployeeController {
     @GetMapping(value = "/addget")
     public Employee addemp()
     {
-        Employee employee = new Employee("Akshat","Singhal","612, Jawahar Colony, New Mandi, Muzaffarnagar","+919629000816","akshat.yash@rediffmail.com","1998-12-16","akki"+Math.floor(Math.random()*100), "com/akshat ");
+        Employee employee = new Employee("Akshat","Singhal","612, Jawahar Colony, New Mandi, Muzaffarnagar","+919629000816","akshat.yash@rediffmail.com","1998-12-16","akki"+Math.floor(Math.random()*100), "akshat");
         return employeeService.add(employee);
     }
 
@@ -42,8 +43,7 @@ public class EmployeeController {
     }
 
     @GetMapping(value = "/getnames")
-    public List<JSONObject> findNames()
-    {
+    public List<JSONObject> findNames() throws JsonProcessingException {
         return employeeService.getNames();
     }
 
