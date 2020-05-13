@@ -4,6 +4,7 @@ package com.akshat.controller;
 import com.akshat.agileboard.AgileBoardApplication;
 import com.akshat.model.Employee;
 import com.akshat.service.EmployeeService;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -23,8 +24,10 @@ import org.springframework.test.web.servlet.ResultMatcher;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.internal.bytebuddy.matcher.ElementMatchers.is;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import org.hamcrest.Matchers;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -49,14 +52,21 @@ public class EmployeeControllerTest{
     public void testGetAllEmployees() throws Exception {
         Employee employee = new Employee("Test","Test","Test","+919629000XXX","Test","XXXX-XX-XX","Test", "Test");
         List<Employee> allEmployees = Arrays.asList(employee);
-//        EmployeeService employeeService = Mockito.mock(EmployeeService.class);
         logger.info("All employees ==== "+allEmployees.toString());
         Mockito.when(employeeService.getAll()).thenReturn(allEmployees);
         logger.info("Employee Service returns====" + employeeService.getAll());
         mockMvc.perform(get("/employee/viewall"))
                 .andExpect(status().isOk())
                 .andDo(print())
-                .andExpect(jsonPath("$[0].firstname",Matchers.is(employee.getFirstname())))
-                .andExpect(jsonPath("$[0].lastname",Matchers.is(employee.getLastname())));
+                .andExpect(jsonPath("$[0].firstname",Matchers.is("Test")))
+                .andExpect(jsonPath("$[0].lastname",Matchers.is("Test")));
+    }
+
+    @Test
+    public void testGetEmployeeByID(){
+        Employee employee = new Employee("Test","Test","Test","+919629000XXX","Test","XXXX-XX-XX","Test", "Test");
+        Optional<Employee> employee1 = Optional.of(employee);
+        logger.info("Optional employee object created is ======>> {}",employee1);
+        assertEquals(1,1);
     }
 }
