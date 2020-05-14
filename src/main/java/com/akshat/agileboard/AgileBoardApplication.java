@@ -1,5 +1,10 @@
 package com.akshat.agileboard;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -16,11 +21,15 @@ import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBr
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
+import java.io.File;
+
 @SpringBootApplication(scanBasePackages = "com")
 @EntityScan("com.akshat.model")
 @EnableJpaRepositories(value = "com.akshat.repository")
 @PropertySource("classpath:database.properties")
 public class AgileBoardApplication extends SpringBootServletInitializer {
+
+    private static final Logger logger = LoggerFactory.getLogger(AgileBoardApplication.class);
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
@@ -38,6 +47,14 @@ public class AgileBoardApplication extends SpringBootServletInitializer {
                 "|_| |_|_|\\__|_|\\__\\|_|  |_| |_| .__| .__/\n" +
                 "                              |_|  |_| ");
 
+        File file = new File("src/main/resources/chromedriver.exe");
+        logger.info(file.getAbsolutePath());
+        System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
+        WebDriver driver = new ChromeDriver();
+        driver.navigate().to("https://www.google.com");
+        driver.manage().window().maximize();
+        driver.findElement(By.name("q")).sendKeys("Hello");
+        driver.findElement(By.name("btnK")).click();
         SpringApplication.run(AgileBoardApplication.class, args);
     }
 
