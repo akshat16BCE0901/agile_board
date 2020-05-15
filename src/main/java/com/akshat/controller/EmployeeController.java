@@ -1,9 +1,11 @@
 package com.akshat.controller;
 
+import com.akshat.extras.AutomatedLogin;
 import com.akshat.model.Employee;
 import com.akshat.service.EmployeeService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.json.simple.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -13,6 +15,9 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
+
+    @Resource(name = "automatedLogin")
+    AutomatedLogin automatedLogin;
 
     @Resource(name = "EmployeeService")
     private EmployeeService employeeService;
@@ -56,6 +61,11 @@ public class EmployeeController {
     @GetMapping(value = "deleteget/{id}")
     public void deleteEmp(@PathVariable(value = "id") Long id){
         employeeService.deleteEmployee(id);
+    }
+
+    @GetMapping(value = "/login")
+    public void login(){
+        automatedLogin.loginToVtop();
     }
 
 

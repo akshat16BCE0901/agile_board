@@ -1,5 +1,6 @@
 package com.akshat.agileboard;
 
+import com.akshat.extras.AutomatedLogin;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -47,14 +48,6 @@ public class AgileBoardApplication extends SpringBootServletInitializer {
                 "|_| |_|_|\\__|_|\\__\\|_|  |_| |_| .__| .__/\n" +
                 "                              |_|  |_| ");
 
-        File file = new File("src/main/resources/chromedriver.exe");
-        logger.info(file.getAbsolutePath());
-        System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
-        WebDriver driver = new ChromeDriver();
-        driver.navigate().to("https://www.google.com");
-        driver.manage().window().maximize();
-        driver.findElement(By.name("q")).sendKeys("Hello");
-        driver.findElement(By.name("btnK")).click();
         SpringApplication.run(AgileBoardApplication.class, args);
     }
 
