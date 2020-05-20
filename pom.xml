@@ -8,6 +8,7 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/>
     </parent>
+
     <groupId>com.akshat</groupId>
     <artifactId>agile-board</artifactId>
     <version>0.0.1-SNAPSHOT</version>
