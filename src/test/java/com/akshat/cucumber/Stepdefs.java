@@ -3,9 +3,13 @@ package com.akshat.cucumber;
 import com.akshat.agileboard.AgileBoardApplication;
 import com.akshat.agileboard.AgileBoardApplicationTests;
 import com.codeborne.selenide.WebDriverRunner;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +17,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.stereotype.Component;
 import org.springframework.test.context.ContextConfiguration;
+import org.springframework.util.Assert;
 
 import java.io.File;
 import java.net.HttpURLConnection;
@@ -77,10 +82,24 @@ public class Stepdefs {
     @And("^the menus are visible$")
     public void the_menus_are_available(){
         loadWebPage();
+        Assert.notNull(webDriver,"Webdriver is not null");
     }
 
     @When("^the user clicks on the \"([^\"]*)\" Dropdown$")
     public void theUserClicksOnTheDropdown(String menu) throws Throwable {
+        webDriver.findElement(By.linkText(menu)).click();
         logger.info("Dropdown is being clicked ===== {}",menu);
+    }
+
+    @Then("^the user sees \"([^\"]*)\" option and click it$")
+    public void theUserSeesOptionAndClickIt(String option) throws Throwable {
+        webDriver.findElement(By.linkText(option)).click();
+        logger.info("Option {} is clicked ",option);
+    }
+
+
+    @Then("^the user expects to see \"([^\"]*)\" table$")
+    public void theUserExpectsToSeeTable(String tableName) throws Throwable {
+        webDriver.findElement(By.id(tableName));
     }
 }

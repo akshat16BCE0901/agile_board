@@ -57,8 +57,8 @@ class AddEmployeeForm extends Component
                 </div>
                 <div style={{backgroundColor : "white"}} className="row">
                     <div className="col-md-3"></div>
-                    <div className="col-md-6">
-                        <Form onSubmit={this.formSubmit}>
+                    <div id="add_employee_form_container" className="col-md-6">
+                        <Form id="add_employee_form" onSubmit={this.formSubmit}>
                             <Form.Group as={Row}>
                                 <Form.Label column sm="2">
                                     Name

@@ -107,7 +107,7 @@ class AllJiras extends Component
         };
         return(
             <div className="row" style={{backgroundColor:"white",padding : "10px"}}>
-                <div className="col-md-12">
+                <div id="all_jiras" className="col-md-12">
                     <MDBDataTable
                         striped
                         hover

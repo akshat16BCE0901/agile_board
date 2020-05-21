@@ -43,7 +43,7 @@ class AllEmployees extends Component
         return(
             <div className="row" style={{backgroundColor:"white",padding : "10px"}}>
 
-                <div style={{width : '100%'}} className="col-md-12 ag-theme-balham">
+                <div id="all_employees" style={{width : '100%'}} className="col-md-12 ag-theme-balham">
                     <AgGridReact
                         domLayout='autoHeight'
                         colResizeDefault='true'
