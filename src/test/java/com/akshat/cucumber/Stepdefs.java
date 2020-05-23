@@ -1,42 +1,40 @@
 package com.akshat.cucumber;
 
 import com.akshat.agileboard.AgileBoardApplication;
-import com.akshat.agileboard.AgileBoardApplicationTests;
 import com.codeborne.selenide.WebDriverRunner;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.stereotype.Component;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.util.Assert;
 
 import java.io.File;
 import java.net.HttpURLConnection;
+import java.net.URL;
+
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.open;
-
-import java.net.URL;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK, classes = AgileBoardApplication.class)
 @ContextConfiguration(classes = AgileBoardApplication.class)
 public class Stepdefs {
 
     public final static Logger logger = LoggerFactory.getLogger(Stepdefs.class);
-    WebDriver webDriver = null;
+    WebDriver webDriver;
+    WebDriverWait wait;
     public Stepdefs() {
         File file = new File("src/test/resources/chromedriver.exe");
         logger.info(file.getAbsolutePath());
         System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
         webDriver = new ChromeDriver();
+        wait = new WebDriverWait(webDriver,20);
         WebDriverRunner.setWebDriver(webDriver);
         logger.info("Chrome web driver path is set to --- {}",System.getProperty("webdriver.chrome.driver"));
         logger.info("Webdriver is set to --- {}",webDriver);
