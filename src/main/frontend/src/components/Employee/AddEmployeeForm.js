@@ -38,7 +38,7 @@ class AddEmployeeForm extends Component
             "password": this.state.password
         };
 
-        Axios.post("/employee/add",employee).then(response => {
+        Axios.post("/api/employee/add",employee).then(response => {
             console.log(response);
             if(response.status===200)
             {

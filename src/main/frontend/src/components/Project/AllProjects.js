@@ -13,7 +13,7 @@ class AllProjects extends Component
 
     
     componentDidMount(){
-        const URL = "/project/viewall";
+        const URL = "/api/project/viewall";
         Axios.get(URL).then(response => response.data)
         .then((data)=>{
             this.setState({projects : data});

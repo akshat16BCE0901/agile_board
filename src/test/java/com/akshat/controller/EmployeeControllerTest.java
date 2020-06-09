@@ -47,7 +47,8 @@ public class EmployeeControllerTest{
         List<Employee> allEmployees = Arrays.asList(employee);
         logger.info("All employees ==== "+allEmployees.toString());
         Mockito.when(employeeService.getAll()).thenReturn(allEmployees);
-        mockMvc.perform(get("/employee/viewall"))
+        logger.info("All employees by mocktio are ===> {}",employeeService.getAll());
+        mockMvc.perform(get("/api/employee/viewall"))
                 .andExpect(status().isOk())
                 .andDo(print())
                 .andExpect(jsonPath("$[0].firstname",Matchers.is("Test")))
@@ -65,7 +66,7 @@ public class EmployeeControllerTest{
         Optional<Employee> employee1 = Optional.of(employee);
         logger.info("Optional employee object created is ======>> {}",employee1);
         Mockito.when(employeeService.getEmployee(any())).thenReturn(employee1);
-        mockMvc.perform(get("/employee/view/1"))
+        mockMvc.perform(get("/api/employee/view/1"))
                 .andExpect(status().isOk())
                 .andDo(print())
                 .andExpect(jsonPath("$.firstname",Matchers.is("Test")))

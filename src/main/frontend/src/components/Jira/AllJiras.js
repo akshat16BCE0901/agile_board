@@ -12,7 +12,7 @@ class AllJiras extends Component
     }
 
     componentDidMount(){
-        const URL = "/jira/viewall";
+        const URL = "/api/jira/viewall";
         Axios.get(URL).then(response => response.data)
         .then((data)=>{
             this.setState({jiras : data});

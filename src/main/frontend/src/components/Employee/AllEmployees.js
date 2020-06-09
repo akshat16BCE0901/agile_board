@@ -30,7 +30,7 @@ class AllEmployees extends Component
         }]
     }
     componentDidMount(){
-        const URL = "/employee/viewall";
+        const URL = "/api/employee/viewall";
         Axios.get(URL).then(response => response.data)
             .then((data)=>{
                 this.setState({employees : data});

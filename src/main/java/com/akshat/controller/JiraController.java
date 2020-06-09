@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/jira")
+@RequestMapping("/api/jira")
 public class JiraController {
 
     @Resource(name = "JiraService")

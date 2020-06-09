@@ -39,7 +39,7 @@ class IndividualJiraPage extends Component
     };
     
     refreshData = function(){
-        Axios.get(`/jira/view/${this.state.jiraId}`)
+        Axios.get(`/api/jira/view/${this.state.jiraId}`)
         .then(response => response.data)
         .then((data) => {
             this.setState({jira : data});
@@ -51,7 +51,7 @@ class IndividualJiraPage extends Component
     }
     changeStatus = async(jiraId,newStatus) =>{
 
-        Axios.put(`/jira/updatestatus/${jiraId}/${this.state.jira.status}/${newStatus}`)
+        Axios.put(`/api/jira/updatestatus/${jiraId}/${this.state.jira.status}/${newStatus}`)
         .then(response => response.data)
         .then((data) =>{
             console.log(data);

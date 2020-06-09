@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(value = "/project")
+@RequestMapping(value = "/api/project")
 public class ProjectController {
 
     @Resource(name = "ProjectService")
